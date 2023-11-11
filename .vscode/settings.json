@@ -1,0 +1,50 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+
+  "editor.mouseWheelZoom": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "tabnine.experimentalAutoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "redhat.telemetry.enabled": true,
+
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "protoc": {
+    "path": "/usr/bin/protoc",
+    "options": ["--proto_path=proto"]
+  },
+  "[proto3]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "go.testFlags": ["-gcflags=-l"],
+  "go.toolsManagement.autoUpdate": true,
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go-nightly"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "window.zoomLevel": 2
+}
